@@ -1,6 +1,4 @@
-﻿
-
-namespace TP1
+﻿namespace TP1
 {
      class DoctorManager
     {
@@ -23,5 +21,7 @@ namespace TP1
         {
 
         }
+
+        private List<Doctor> doctors = new();
     }
 }
