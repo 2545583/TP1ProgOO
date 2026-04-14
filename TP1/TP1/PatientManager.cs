@@ -9,12 +9,13 @@
 
         public void Add()
         {
-
+            Patient patient = new();
+            _patients.Enqueue(patient);
         }
 
         public void Print()
         {
-
+           
         }
 
         public void Save()
@@ -28,6 +29,6 @@
         }
 
 
-        private List<Patient> patients = new();
+        private Queue<Patient> _patients = new();
     }
 }

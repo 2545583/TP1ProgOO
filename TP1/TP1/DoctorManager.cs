@@ -4,12 +4,13 @@
     {
         public DoctorManager()
         {
-                
+          
         }
 
         public void Add()
         {
-
+            Doctor doctor = new();
+            _doctors.Enqueue(doctor);
         }
 
         public void Print()
@@ -22,6 +23,6 @@
 
         }
 
-        private List<Doctor> doctors = new();
+        private Queue<Doctor> _doctors = new();
     }
 }
