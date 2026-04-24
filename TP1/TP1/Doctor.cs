@@ -5,7 +5,7 @@ namespace TP1
    /// </summary>
    class Doctor : Person
    {
-      /// <summary>Nombre maximum de patients qu'un médecin peut prendre en charge</summary>
+      // Nombre maximum de patients qu'un médecin peut prendre en charge
       public const int MaxPatients = 3;
 
       // Ligne de séparation pour l'affichage
@@ -28,10 +28,10 @@ namespace TP1
       {
       }
 
-      /// <summary>Indique si le médecin peut encore prendre en charge de nouveaux patients</summary>
+      // Indique si le médecin peut encore prendre en charge de nouveaux patients
       public bool IsAvailable { get { return _patients.Count < MaxPatients; } }
 
-      /// <summary>Nombre de patients actuellement pris en charge</summary>
+      // Nombre de patients actuellement pris en charge
       public int PatientCount { get { return _patients.Count; } }
 
       /// <summary>

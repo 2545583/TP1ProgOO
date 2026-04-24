@@ -6,20 +6,20 @@ namespace TP1
    /// </summary>
    class DoctorManager
    {
-      private const string FileName = "../../../doctors.txt";
-      private const char Separator = ';';
-      private const string DashLine = "-----------------------------";
+ 
 
       /// <summary>
-      /// Constructeur — lit le fichier de sauvegarde des médecins s'il existe
+      /// Constructeur  lit le fichier de sauvegarde des médecins s'il existe
       /// </summary>
       public DoctorManager()
       {
-         if (!File.Exists(FileName))
-            return;
+            if (!File.Exists(FileName))
+            {
+                return;
+            }
 
-         using (StreamReader input = new(FileName))
-         {
+            using (StreamReader input = new(FileName))
+            {
             string? line = input.ReadLine();
             while (line != null)
             {
@@ -30,7 +30,9 @@ namespace TP1
                   {
                      string[] values = line.Split(Separator);
                      if (values.Length != 3)
-                        throw new InvalidDataException("Format invalide");
+                     {
+                         throw new InvalidDataException("Format invalide");
+                     }
 
                      int id = int.Parse(values[0].Trim());
                      string firstName = values[1].Trim();
@@ -85,17 +87,21 @@ namespace TP1
          Console.WriteLine(DashLine);
          int index = 1;
          foreach (var doctor in available)
-            doctor.Print(index++);
+         {
+             doctor.Print(index++);
+         }
 
-         Console.WriteLine();
+            Console.WriteLine();
 
          // Affichage des médecins non disponibles
          Console.WriteLine($"Médecins non disponibles ({unavailable.Count})");
          Console.WriteLine(DashLine);
          index = 1;
          foreach (var doctor in unavailable)
+         {
             doctor.Print(index++);
-      }
+         }
+        }
 
       /// <summary>
       /// Sauvegarde tous les médecins dans le fichier de données
@@ -105,8 +111,10 @@ namespace TP1
          using (StreamWriter output = new(FileName))
          {
             foreach (var doctor in _doctors)
-               output.WriteLine($"{doctor.Id}{Separator}{doctor.FirstName}{Separator}{doctor.LastName}");
-         }
+                {
+                    output.WriteLine($"{doctor.Id}{Separator}{doctor.FirstName}{Separator}{doctor.LastName}");
+                }
+            }
       }
 
       /// <summary>
@@ -118,8 +126,10 @@ namespace TP1
       {
          foreach (var doctor in _doctors)
             if (doctor.Id == id)
-               return doctor;
-         return null;
+            {
+                    return doctor;
+            }
+            return null;
       }
 
       /// <summary>
@@ -130,8 +140,10 @@ namespace TP1
       {
          foreach (var doctor in _doctors)
             if (doctor.IsAvailable)
-               return doctor;
-         return null;
+            {
+                return doctor;
+            }
+            return null;
       }
 
       /// <summary>
@@ -145,18 +157,23 @@ namespace TP1
          foreach (var doctor in _doctors)
          {
             if (!doctor.IsAvailable)
-               continue;
-            if (best == null ||
+            {
+                continue;
+            }
+                if (best == null ||
                 doctor.Schedule.AppointmentCount < best.Schedule.AppointmentCount ||
                 (doctor.Schedule.AppointmentCount == best.Schedule.AppointmentCount &&
                  doctor.PatientCount < best.PatientCount))
-            {
+                {
                best = doctor;
-            }
+                }
          }
          return best;
       }
 
       private readonly List<Doctor> _doctors = new();
-   }
+      private const string FileName = "../../../doctors.txt";
+      private const char Separator = ';';
+      private const string DashLine = "-----------------------------";
+    }
 }

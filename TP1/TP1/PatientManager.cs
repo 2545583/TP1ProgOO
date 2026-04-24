@@ -6,12 +6,9 @@ namespace TP1
    /// </summary>
    class PatientManager
    {
-      private const string FileName = "../../../patients.txt";
-      private const char Separator = ';';
-      private const string DashLine = "-----------------------------";
 
       /// <summary>
-      /// Constructeur — lit le fichier de sauvegarde des patients s'il existe
+      /// Constructeur lit le fichier de sauvegarde des patients s'il existe
       /// </summary>
       /// <param name="doctorMgr">Gestionnaire de médecins (pour lier les patients à leur médecin)</param>
       public PatientManager(DoctorManager doctorMgr)
@@ -19,11 +16,13 @@ namespace TP1
          _doctorMgr = doctorMgr;
 
          if (!File.Exists(FileName))
-            return;
-
-         using (StreamReader input = new(FileName))
          {
-            string? line = input.ReadLine();
+            return;
+         }
+
+            using (StreamReader input = new(FileName))
+            {
+                string? line = input.ReadLine();
             while (line != null)
             {
                line = line.Trim();
@@ -33,7 +32,9 @@ namespace TP1
                   {
                      string[] values = line.Split(Separator);
                      if (values.Length != 4)
+                     {
                         throw new InvalidDataException("Format invalide");
+                     }
 
                      int id = int.Parse(values[0].Trim());
                      string firstName = values[1].Trim();
@@ -103,25 +104,33 @@ namespace TP1
          foreach (var patient in _patients)
          {
             if (patient.HasDoctor)
-               withDoctor.Add(patient);
-            else
-               waiting.Add(patient);
-         }
+            {
+                withDoctor.Add(patient);
+            }
+                else
+                {
+                    waiting.Add(patient);
+                }
+            }
 
          Console.WriteLine($"Patients avec médecin ({withDoctor.Count})");
          Console.WriteLine(DashLine);
          int index = 1;
          foreach (var patient in withDoctor)
-            patient.Print(index++);
+         {
+             patient.Print(index++);
+         }
 
-         Console.WriteLine();
+            Console.WriteLine();
 
          Console.WriteLine($"Patients sans médecin ({waiting.Count})");
          Console.WriteLine(DashLine);
          index = 1;
          foreach (var patient in waiting)
-            patient.Print(index++);
-      }
+            {
+                patient.Print(index++);
+            }
+        }
 
       /// <summary>
       /// Sauvegarde tous les patients dans le fichier de données
@@ -194,12 +203,12 @@ namespace TP1
          }
 
          // Vérifie les conflits d'horaire
-         if (doctor!.Schedule.HasConflict(dateTime))
+         if (doctor!.Schedule.VerifyTime(dateTime))
          {
             Console.WriteLine("Conflit d'horaire avec le médecin");
             return;
          }
-         if (patient.Schedule.HasConflict(dateTime))
+         if (patient.Schedule.VerifyTime(dateTime))
          {
             Console.WriteLine("Conflit d'horaire avec le patient");
             return;
@@ -223,11 +232,16 @@ namespace TP1
       {
          foreach (var patient in _patients)
             if (patient.Id == id)
-               return patient;
-         return null;
+            {
+                return patient;
+            }
+            return null;
       }
 
       private readonly DoctorManager _doctorMgr;
+      private const string FileName = "../../../patients.txt";
+      private const char Separator = ';';
+      private const string DashLine = "-----------------------------";
       private readonly List<Patient> _patients = new();
    }
 }

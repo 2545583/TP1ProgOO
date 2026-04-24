@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\appointement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\appointement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|c:\\users\\andy manu\\tp1progoo\\tp1\\tp1\\appointement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094E40BF-263B-4B74-B153-B001312AFF98}|TP1\\TP1.csproj|solutionrelative:tp1\\appointement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Person.cs",
+              "RelativeDocumentMoniker": "TP1\\Person.cs",
+              "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Person.cs",
+              "RelativeToolTip": "TP1\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T16:06:44.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Appointement.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Appointement.cs",
               "RelativeDocumentMoniker": "TP1\\Appointement.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Appointement.cs",
               "RelativeToolTip": "TP1\\Appointement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T18:46:14.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Schedule.cs",
               "RelativeDocumentMoniker": "TP1\\Schedule.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Schedule.cs",
               "RelativeToolTip": "TP1\\Schedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T18:46:07.318Z"
+              "WhenOpened": "2026-04-13T18:46:07.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Patient.cs",
               "RelativeDocumentMoniker": "TP1\\Patient.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Patient.cs",
               "RelativeToolTip": "TP1\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T18:45:50.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Doctor.cs",
               "RelativeDocumentMoniker": "TP1\\Doctor.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Doctor.cs",
               "RelativeToolTip": "TP1\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T18:45:44.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PatientManager.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\PatientManager.cs",
               "RelativeDocumentMoniker": "TP1\\PatientManager.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\PatientManager.cs",
               "RelativeToolTip": "TP1\\PatientManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T18:45:36.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DoctorManager.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\DoctorManager.cs",
               "RelativeDocumentMoniker": "TP1\\DoctorManager.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\DoctorManager.cs",
               "RelativeToolTip": "TP1\\DoctorManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAmwKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T18:45:22.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Program.cs",
               "RelativeDocumentMoniker": "TP1\\Program.cs",
               "ToolTip": "C:\\Users\\Andy Manu\\TP1ProgOO\\TP1\\TP1\\Program.cs",
               "RelativeToolTip": "TP1\\Program.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAArwHsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T14:47:29.719Z",
               "EditorCaption": ""

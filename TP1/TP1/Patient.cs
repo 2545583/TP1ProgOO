@@ -22,10 +22,10 @@ namespace TP1
       {
       }
 
-      /// <summary>Médecin assigné au patient, ou null si en attente</summary>
+      // Médecin assigné au patient, ou null si en attente
       public Doctor? Doctor { get { return _doctor; } }
 
-      /// <summary>Indique si le patient a un médecin assigné</summary>
+      // Indique si le patient a un médecin assigné
       public bool HasDoctor { get { return _doctor != null; } }
 
       /// <summary>
@@ -44,14 +44,21 @@ namespace TP1
       public void Print(int index)
       {
          if (_doctor != null)
+         {
             Console.WriteLine($"  {index}) {FirstName} {LastName}, médecin: Dr. {_doctor.FirstName} {_doctor.LastName}");
+         }
          else
+         {
             Console.WriteLine($"  {index}) {FirstName} {LastName}, en attente d'un médecin");
 
-         // Affiche les rendez-vous s'il y en a
-         if (Schedule.AppointmentCount > 0)
+         }
+
+        // Affiche les rendez-vous s'il y en a
+        if (Schedule.AppointmentCount > 0)
+        {
             Schedule.Print();
-      }
+        }
+        }
 
       private Doctor? _doctor = null;
    }

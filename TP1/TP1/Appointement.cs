@@ -5,13 +5,13 @@ namespace TP1
    /// </summary>
    class Appointment
    {
-      /// <summary>Durée en minutes de la catégorie A</summary>
+      // Durée en minutes de la catégorie A
       public const int DurationA = 10;
 
-      /// <summary>Durée en minutes de la catégorie B</summary>
+      // Durée en minutes de la catégorie B
       public const int DurationB = 20;
 
-      /// <summary>Durée en minutes de la catégorie C</summary>
+      // Durée en minutes de la catégorie C
       public const int DurationC = 30;
 
       /// <summary>
@@ -30,19 +30,19 @@ namespace TP1
          _duration = GetDuration(category);
       }
 
-      /// <summary>Patient du rendez-vous</summary>
+      // Patient du rendez-vous
       public Patient Patient { get { return _patient; } }
 
-      /// <summary>Médecin du rendez-vous</summary>
+      // Médecin du rendez-vous
       public Doctor Doctor { get { return _doctor; } }
 
-      /// <summary>Date et heure du rendez-vous</summary>
+      // Date et heure du rendez-vous
       public DateTime DateTime { get { return _dateTime; } }
 
-      /// <summary>Catégorie du rendez-vous (A, B ou C)</summary>
+      // Catégorie du rendez-vous (A, B ou C)
       public char Category { get { return _category; } }
 
-      /// <summary>Durée en minutes du rendez-vous</summary>
+      // Durée en minutes du rendez-vous
       public int Duration { get { return _duration; } }
 
       /// <summary>

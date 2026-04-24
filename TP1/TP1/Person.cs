@@ -32,9 +32,11 @@ namespace TP1
       protected Person(int id, string firstName, string lastName)
       {
          if (id >= _nextId)
-            _nextId = id + 1;
+         {
+                _nextId = id + 1;
+         }
 
-         _id = id;
+            _id = id;
          _firstName = firstName;
          _lastName = lastName;
       }
@@ -42,13 +44,13 @@ namespace TP1
       //Identifiant unique de la personne
       public int Id { get { return _id; } }
 
-      /// <summary>Prénom de la personne</summary>
+      // Prénom de la personne
       public string FirstName { get { return _firstName; } }
 
-      /// <summary>Nom de la personne</summary>
+      // Nom de la personne
       public string LastName { get { return _lastName; } }
 
-      /// <summary>Horaire des rendez-vous de la personne</summary>
+      // Horaire des rendez-vous de la personne
       public Schedule Schedule { get { return _schedule; } }
 
       // Lit et valide un nom depuis la console
@@ -56,10 +58,14 @@ namespace TP1
       {
          string value = Console.ReadLine()?.Trim() ?? "";
          if (value.Length == 0)
-            throw new FormatException("Le nom ne peut pas être vide");
-         if (value.Contains(';'))
+         {
+             throw new FormatException("Le nom ne peut pas être vide");
+         }
+        if (value.Contains(';'))
+        {
             throw new FormatException("Le nom ne peut pas contenir le caractère ';'");
-         return value;
+        }
+            return value;
       }
 
       private readonly int _id;
