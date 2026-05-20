@@ -15,6 +15,7 @@ namespace TP1
       {
          _doctorMgr = doctorMgr;
 
+         // JOEL - CORRECTION -2: Instructions non vues en classe
          if (!File.Exists(FileName))
          {
             return;
@@ -30,6 +31,7 @@ namespace TP1
                {
                   try
                   {
+                     // JOEL - CORRECTION -3: Fonctionnalité dupliquée, devrait être dans Person
                      string[] values = line.Split(Separator);
                      if (values.Length != 4)
                      {
@@ -144,6 +146,7 @@ namespace TP1
             {
                // -1 indique qu'aucun médecin n'est assigné
                int doctorId = patient.HasDoctor ? patient.Doctor!.Id : -1;
+               // JOEL - CORRECTION -2: C'est la responsabilité de Patient
                output.WriteLine($"{patient.Id}{Separator}{patient.FirstName}{Separator}{patient.LastName}{Separator}{doctorId}");
             }
          }
@@ -168,6 +171,7 @@ namespace TP1
             return;
          }
 
+         // JOEL - CORRECTION -2: Constructeur d'Appointment
          Console.Write("Indiquez la date et l'heure voulue (A/M/J H:M): ");
          string? dateTimeStr = Console.ReadLine()?.Trim();
          if (!DateTime.TryParse(dateTimeStr, out DateTime dateTime))
@@ -242,6 +246,7 @@ namespace TP1
       private const string FileName = "../../../patients.txt";
       private const char Separator = ';';
       private const string DashLine = "-----------------------------";
-      private readonly List<Patient> _patients = new();
+     // JOEL - CORRECTION -2: Doit avoir deux Queue de patients
+     private readonly List<Patient> _patients = new();
    }
 }

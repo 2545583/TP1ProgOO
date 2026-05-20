@@ -9,6 +9,7 @@ namespace TP1
       public const int MaxPatients = 3;
 
       // Ligne de séparation pour l'affichage
+      // JOEL - CORRECTION -1: Ordre des déclarations, private à la fin
       private const string DashLine = "-----------------------------";
 
       /// <summary>

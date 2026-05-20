@@ -45,6 +45,7 @@ namespace TP1
       {
          if (_doctor != null)
          {
+            // JOEL - CORRECTION -2: BasePrint() dans Person pour partie commune
             Console.WriteLine($"  {index}) {FirstName} {LastName}, médecin: Dr. {_doctor.FirstName} {_doctor.LastName}");
          }
          else

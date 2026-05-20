@@ -78,6 +78,7 @@ namespace TP1
          foreach (var doctor in _doctors)
          {
             if (doctor.IsAvailable)
+               // JOEL - CORRECTION -1: Bloc délimité par des accolades
                available.Add(doctor);
             else
                unavailable.Add(doctor);
@@ -171,6 +172,7 @@ namespace TP1
          return best;
       }
 
+      // JOEL - CORRECTION -2: Doit avoir deux Queue de médecins
       private readonly List<Doctor> _doctors = new();
       private const string FileName = "../../../doctors.txt";
       private const char Separator = ';';
